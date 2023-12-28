@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E7E7"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Tommorrow x Together"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="30dp"
+    android:fontFamily="serif"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/txt2"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/txt3" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/txt4"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/txt5"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/txt6"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/txt7"/>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="Название группы — акроним от фразы «Tomorrow X Together»[3]. На корейском языке название выглядит как «투모로우바이투게더», что переводится как «завтра вместе» (англ. Tomorrow X Together) на хангыле. Полное название группы на английском языке звучит так же, как и на корейском[4]. Согласно данным компании Big Hit Entertainment, название отображает идею всех участников «собраться вместе с единой мечтой, в надежде построить новое завтра»[5]. Название также отображает замысел того, что все участники — разные личности, но вместе формируют синергию.
+
+Карьера
+Пре-дебют
+Планы для дебюта новой мужской группы были раскрыты основателем Big Hit Entertainment, Пан Си Хёком, ещё в 2017 году[6]. Официально создание коллектива было анонсировано в ноябре 2018 года, но сам дебют намечен на начало 2019 года. После сообщалось, что в группе будет шесть участников и дебют переносится на март, однако агентство опровергло эту информацию[7][8][9].
+
+10 января 2019 года TXT были официально представлены через веб-сайт[10]. В последующие десять дней были выложены интро-видео с каждым участником[11]. В конце был представлен тизер с финальным составом группы: Ёнджуном, Субином, Бомгю, Тхэхёном и Хюнин Каем[12]. Оставшиеся тизер-видео «Фильм-вопрос» были выпущены в последнюю неделю января[13]."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Stray Kids"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:fontFamily="serif"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/straykids2"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/straykids3" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/straykids4"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/straykids5"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/straykids6"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/straykids7"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="Stray Kids (кор. 스트레이 키즈; яп. ストレイキッズ; стилизуется как SKZ) — южнокорейский бой-бэнд, сформированный в 2017 году компанией JYP Entertainment через одноимённое реалити-шоу на выживание. Группа состоит из восьми участников: Пан Чхана, Ли Ноу, Чханбина, Хёнджина, Джисона, Феликса, Сынмина и I.N.[⇨] 8 января 2018 года они выпустили предебютный мини-альбом Mixtape. Официальный дебют состоялся 25 марта 2018 года с мини-альбомом I Am Not."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="G-idle"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:fontFamily="serif"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img" />
+
+                </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="(G)I-dle (кор. (여자)아이들; ром.: Yeoja Aideul, переводится как «Юные девушки», сокращение от Girl-Idle; читается как Айдл) — южнокорейская гёрл-группа, сформированная в 2018 году компанией Cube Entertainment. Коллектив состоит из пяти участниц: Соëн, Миëн, Минни, Юци и Шухуа. 14 августа 2021 года группу покинула Суджин. Дебют состоялся 2 мая 2018 года с мини-альбомом I Am.
+
+(G)I-DLE были названы «монстрами-новичками» 2018 года и считаются одной из самых успешных южнокорейских гёрл-групп, не родом из «Большой тройки» звукозаписывающих лейблов. В отличие от большинства женских групп K-pop, (G)I-dle непосредственно участвуют в создании своей музыки; в частности, Соён, которая написала и спродюсировала большинство песен группы[1][2]. Участницы Минни и Юци также были соавторами и продюсерами многочисленных треков для альбомов. Группа получила известность в стране в 2020 году благодаря своему сингл-альбому Dumdi Dumdi, который занял второе место в чарте Circle Chart и стал вторым самым продаваемым синглом женской группы всех времен[3]. Их следующий сингл «Tomboy» с их первого полноформатного альбома I Never Die возглавил чарты Circle, оставаясь на вершине чартов более двух месяцев. Кроме того, сингл был сертифицирован как платиновый Корейской ассоциацией музыкального контента (KMCA), за ним последовал их следующий сингл «Nxde», который также возглавил чарт Circle, сделав (G)I-dle единственным исполнителем, у которого две песни достигли PAK в 2022 году[4]. В 2023 году, они стали первыми от независимого лейбла, занявшим 39-ю строчку в чартах Mediabase Top 40 Radio Airplay и дебютировавшим на 40-й строчке в американском чарте Billboard Pop Airplay с песней не на английском языке[5]."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Seventeen"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:fontFamily="serif"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_1"/>
+</LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="Seventeen (кор. 세븐틴, также стилизизовано как SEVENTEEN или SVT) — южнокорейский бойбенд, сформированный в 2015 году компанией Pledis Entertainment. В коллективе задействовано 13 участников: Эскупс, Джонхан, Джошуа, Чун, Хоси, Вону, Уджи, Токём, Мингю, Диэйт, Сынгван, Вернон, Тино. Дебют состоялся 26 мая 2015 года с мини-альбомом 17 Carat.
+
+Дебютный мини-альбом 17 Carat, стал самым продолжительным К-поп альбомом года в чартах США и единственным альбомом новичков, попавшим в список Billboard «Топ 10 лучших К-поп альбомов 2015 года»[1][2]. Seventeen выпустили три студийных альбома и двенадцать мини-альбомов.
+
+Seventeen считаются «самопродюсирующейся» айдол-группой, участники которой активно участвуют в написании песен и постановке хореографии, а также в других аспектах своей музыки и выступлений[3][4]. Они выступают как одна группа, но разделены на три подразделения — хип-хоп, вокал и перформанс — каждое со своей областью специализации. Различные корейские и международные СМИ назвали их «Королями перформанса», «Театральными детьми K-Pop» и «Электростанцией K-Pop Performance»."/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

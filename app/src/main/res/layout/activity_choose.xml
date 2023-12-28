@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/choose"
+    tools:context=".ChooseActivity">
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="662dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:onClick="txt"
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/txt" />
+
+            <ImageButton
+                android:onClick="straykids"
+                android:id="@+id/straykids"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/straykids" />
+
+            <ImageButton
+                android:onClick="gidle"
+                android:id="@+id/gidle"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/gidle" />
+
+            <ImageButton
+                android:onClick="seventeen"
+                android:id="@+id/seventeen"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/seventeen" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
